@@ -1,4 +1,4 @@
-package com.example.edisonmaciel.clients;
+package com.edisonmaciel.clients;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
