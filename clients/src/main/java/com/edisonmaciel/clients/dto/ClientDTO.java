@@ -24,7 +24,7 @@ public class ClientDTO implements Serializable{
 		this.birthDate = entity.getBirthDate();
 		this.children = entity.getChildren();
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
@@ -72,8 +72,5 @@ public class ClientDTO implements Serializable{
 	public void setChildren(Integer children) {
 		this.children = children;
 	}
-	
-	
-	
 
 }
