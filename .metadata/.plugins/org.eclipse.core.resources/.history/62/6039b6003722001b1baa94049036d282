@@ -1,0 +1,5 @@
+package com.edisonmaciel.clients.resources;
+
+public class ClientResource {
+
+}

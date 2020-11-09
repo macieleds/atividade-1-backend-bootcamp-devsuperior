@@ -1,0 +1,5 @@
+package com.edisonmaciel.clients.services.exceptions;
+
+public class DatabaseException {
+
+}

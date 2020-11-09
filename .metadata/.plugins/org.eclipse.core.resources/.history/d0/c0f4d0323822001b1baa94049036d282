@@ -1,0 +1,15 @@
+package com.edisonmaciel.clients.services;
+
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
+
+import com.edisonmaciel.clients.entities.Client;
+
+@Service
+public class ClientService {
+	
+	public Page<Client> findallPaged (){
+		
+	}
+
+}

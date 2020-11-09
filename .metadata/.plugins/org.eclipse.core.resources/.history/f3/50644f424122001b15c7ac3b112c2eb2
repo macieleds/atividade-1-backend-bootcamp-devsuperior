@@ -1,0 +1,30 @@
+package com.edisonmaciel.clients.dto;
+
+import java.io.Serializable;
+import java.time.Instant;
+
+import com.edisonmaciel.clients.entities.Client;
+
+public class ClientDTO implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private String name;
+	private String cpf;
+	private Double income;
+	private Instant birthDate;
+	private Integer children;
+	
+	public ClientDTO(Client entity) {
+		super();
+		this.id = entity.getId();
+		this.name = entity.getName();
+		this.cpf = entity.getCpf();
+		this.income = entity.getIncome();
+		this.birthDate = entity.getBirthDate();
+		this.children = entity.getChildren();
+	}
+	
+	
+
+}

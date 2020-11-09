@@ -1,0 +1,5 @@
+package com.edisonmaciel.clients.dto;
+
+public class ClientDTO {
+
+}

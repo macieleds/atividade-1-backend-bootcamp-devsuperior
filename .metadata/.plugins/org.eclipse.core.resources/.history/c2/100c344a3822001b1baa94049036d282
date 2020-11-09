@@ -1,0 +1,23 @@
+package com.edisonmaciel.clients.services;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
+
+import com.edisonmaciel.clients.entities.Client;
+import com.edisonmaciel.clients.repositories.ClientRepository;
+
+@Service
+public class ClientService {
+	
+	@Autowired
+	private ClientRepository clientRepository;
+	
+	@Transactional
+	public Page<Client> findAllPaged(){
+		
+	}
+
+}
