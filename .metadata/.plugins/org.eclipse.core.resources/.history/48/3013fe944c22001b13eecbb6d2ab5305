@@ -1,5 +1,0 @@
-package com.edisonmaciel.clients.resources.exceptions;
-
-public class ResourceExceptionHandler {
-
-}

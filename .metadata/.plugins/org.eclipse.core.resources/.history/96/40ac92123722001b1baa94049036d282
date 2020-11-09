@@ -1,8 +1,0 @@
-package com.edisonmaciel.clients.resources;
-
-import javax.annotation.Resource;
-
-@Resource
-public class ClientResource {
-
-}

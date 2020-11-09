@@ -15,6 +15,11 @@ public class ClientDTO implements Serializable{
 	private Instant birthDate;
 	private Integer children;
 	
+	
+	public ClientDTO () {
+		
+	}
+	
 	public ClientDTO(Client entity) {
 		super();
 		this.id = entity.getId();

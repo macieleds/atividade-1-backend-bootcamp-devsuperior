@@ -1,5 +1,0 @@
-package com.edisonmaciel.clients.repositories;
-
-public interface ClientRepository {
-
-}
