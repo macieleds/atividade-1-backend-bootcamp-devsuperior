@@ -11,7 +11,7 @@
 <h3 class="code-line" data-line-start=2 data-line-end=3 ><a id="Sobre_o_desafio_2"></a>Sobre a atividade</h3>
 <p class="has-line-data" data-line-start="5" data-line-end="6">Entregar um projeto Spring Boot 2.3.x contendo um CRUD completo de web services REST para acessar um recurso de clientes, contendo as cinco operações básicas aprendidas no capítulo:
 
-<h3 class="code-line" data-line-start=12 data-line-end=13 ><a id="Extras"></a>Extras</h3>
+<h3 class="code-line" data-line-start=12 data-line-end=13 ><a id="Requisitos:"></a>Extras</h3>
 <ul>
 <li class="has-line-data" data-line-start="14" data-line-end="15">Busca paginada de recursos</li>
 <li class="has-line-data" data-line-start="14" data-line-end="15">Busca de recursos por id</li>
